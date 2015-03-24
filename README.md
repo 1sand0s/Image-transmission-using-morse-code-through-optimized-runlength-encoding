@@ -1,2 +1,4 @@
 # Image-transmission-using-morse-code-through-optimized-runlength-encoding
-1st semester project
+1st semester project: This is my first semester project based on transmitting images through morse code by encrypting the image as base64 followed by run length encoding for optimization.This data is then fed into an rf transmitter conected to an arduino which is then received by an rf receiver on another arduino, this received data is then fed into the decrypter program which decodes the information , but the decoded image still appears black unless the correct passkey is typed and then as a little complement i threw in another encryption which still hides the image ,even after the correct passkey, to view the image , you must shine a flashlight onto the screen. 
+
+Warning: There are certain images and dependencies such as processing , that i have used, without resolving these the program will not compile
